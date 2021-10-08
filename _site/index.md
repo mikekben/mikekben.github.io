@@ -1,1 +1,0 @@
-I'm a first year Ph.D. student in the School of Computer Science at Georgia Tech.
