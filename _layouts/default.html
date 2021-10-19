@@ -11,15 +11,36 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
     {% include head-custom.html %}
+    {% assign sorted_pages = site.pages | sort:"order" %}
+    <div class="topnav">
+      <div class="title">Benjamin Mikek</div>
+      
+      {% for node in sorted_pages %}
+        {% if page.url == node.url %}
+          {% if node.title == "Home" %}
+          <a href="/#research">Research</a>
+          <a class="active" href="{{node.url}}">{{node.title}}</a>
+          {% else %}
+          <a class="active" href="{{node.url}}">{{node.title}}</a>
+          {% endif %}
+        {% elsif node.title == "Home" %}
+          <a href="/#research">Research</a>
+          <a href="{{node.url}}">{{node.title}}</a>
+        {% elsif node.title == "Personal" %}
+          <a href="{{node.url}}">{{node.title}}</a>
+        {% endif %}
+    {% endfor %}
+    
+      
+    </div> 
   </head>
   <body>
     <div class="wrapper">
       <header>
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
-
-        {% if site.logo %}
+                {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
+        <h2><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h2>
 
         {% if site.show_downloads %}
         <ul class="downloads">

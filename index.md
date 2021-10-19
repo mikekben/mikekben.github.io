@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+order: 2
 ---
 <style>
 td, th {
