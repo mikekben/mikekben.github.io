@@ -4,11 +4,11 @@ title: Teaching
 order: 2
 ---
 
-## [Georgia Tech]
+## Georgia Tech
 + Spring 2023: TA for **CS4240 Compilers and Interpreters** \\
 Instructor: [Qirun Zhang](https://helloqirun.github.io/)
 
-## [Grinnell College]
+## Grinnell College
 + Spring 2021: TA for **CS213 Operating Systems & Parallel Algorithms** \\
 Instructor: [Charlie Curtsinger](https://curtsinger.cs.grinnell.edu/)
 + Spring 2021: TA for **CSC151 Functional Problem Solving (Intro to CS)** \\
