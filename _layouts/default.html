@@ -18,15 +18,17 @@
       {% for node in sorted_pages %}
         {% if page.url == node.url %}
           {% if node.title == "Home" %}
-          <a href="/#research">Research</a>
           <a class="active" href="{{node.url}}">{{node.title}}</a>
           {% else %}
           <a class="active" href="{{node.url}}">{{node.title}}</a>
           {% endif %}
         {% elsif node.title == "Home" %}
-          <a href="/#research">Research</a>
           <a href="{{node.url}}">{{node.title}}</a>
         {% elsif node.title == "Personal" %}
+          <a href="{{node.url}}">{{node.title}}</a>
+        {% elsif node.title == "Teaching" %}
+          <a href="{{node.url}}">{{node.title}}</a>
+        {% elsif node.title == "Research" %}
           <a href="{{node.url}}">{{node.title}}</a>
         {% endif %}
     {% endfor %}

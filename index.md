@@ -25,8 +25,6 @@ To appear in *Proceedings of the Joint European Software Engineering Conference 
 
 + Poster presentation: **Decompositions of the Incidence Matrices of Undirected Graphs** Joint Mathematics Meetings, 2020. \[[poster pdf](\resources\JMM_Poster.pdf)\]
 
-## [Teaching]
-
 ## News
 + _**May 2023**_ <br>My paper, **Speeding up SMT Solving via Compiler Optimization**, was accepted to ESEC/FSE 2023
 + _**August 2021**_ <br> Started as a first semester Ph.D. student at the [Georgia Institute of Technology](https://www.gatech.edu/) in Atlanta
