@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-order: 2
+order: 4
 ---
 <style>
 td, th {
@@ -16,14 +16,16 @@ td, th {
 
 
 ## About me
-I'm a second year Ph.D. student in the School of Computer Science at Georgia Tech. I am a member of the [Programming Languages & Software Engineering Group (PLSE)](https://www.scs.gatech.edu/content/programming-languages-software-engineering), advised by [Professor Qirun Zhang](https://www.cc.gatech.edu/~qzhang414/). My research interests are broadly in the area of programming languages, and I'm specifically interested in static analysis and program verification techniques, including using SMT solvers like [Z3](https://github.com/Z3Prover/z3). I'm also excited to apply ideas from theory and mathematics to program analysis.
+I'm a second year Ph.D. student in the School of Computer Science at Georgia Tech. I am a member of the [Programming Languages & Software Engineering Group (PLSE)](https://www.scs.gatech.edu/content/programming-languages-software-engineering), advised by [Professor Qirun Zhang](https://www.cc.gatech.edu/~qzhang414/). My research interests are broadly in the area of programming languages, and I'm specifically interested in static analysis and program verification techniques, including using SMT solvers like [Z3](https://github.com/Z3Prover/z3). I'm also excited to apply ideas from theory and mathematics to program analysis. I graduated from Grinnell College in 2021 with distinction in Computer Science and Mathematics.
 
-## Research
+## [Publications](/research)
 + **Speeding up SMT Solving via Compiler Optimization** <br>
 Benjamin Mikek, Qirun Zhang <br>
 To appear in *Proceedings of the Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering* (ESEC/FSE), 2023
 
 + Poster presentation: **Decompositions of the Incidence Matrices of Undirected Graphs** Joint Mathematics Meetings, 2020. \[[poster pdf](\resources\JMM_Poster.pdf)\]
+
+## [Teaching]
 
 ## News
 + _**May 2023**_ <br>My paper, **Speeding up SMT Solving via Compiler Optimization**, was accepted to ESEC/FSE 2023
