@@ -23,7 +23,6 @@ I'm a second year Ph.D. student in the School of Computer Science at Georgia Tec
 Benjamin Mikek, Qirun Zhang <br>
 To appear in *Proceedings of the Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering* (ESEC/FSE), 2023
 
-+ Poster presentation: **Decompositions of the Incidence Matrices of Undirected Graphs** Joint Mathematics Meetings, 2020. \[[poster pdf](\resources\JMM_Poster.pdf)\]
 
 ## News
 + _**May 2023**_ <br>My paper, **Speeding up SMT Solving via Compiler Optimization**, was accepted to ESEC/FSE 2023
