@@ -10,10 +10,18 @@ Benjamin Mikek and Qirun Zhang \\
 To appear in *Proceedings of the Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering* (ESEC/FSE), 2023.
 
 ## Presentations
-+ Virtual presentation: **Dynamically Computing Simplicial Depth in Data Sets** \\
-Sydney Leither, Sunaina Butler, Benjamin Mikek, and Michael Burr
-COURAGE REU Conference, 2020. \[[presentation](\resources\depth.pdf)]
++ **Faster SMT Solving via Constraint Transformation** \\
+Benjamin Mikek, Qirun Zhang \\
+Southeast Regional Programming Languages Seminar (SERPL 2023), 14 October 2023, Agusta, GA, USA. \[[presentation](\resources\SERPL2023.pdf)]
 
-+ Poster presentation: **Decompositions of the Incidence Matrices of Undirected Graphs**  <br>
-Benjamin Mikek and Jennifer Fowler
-Joint Mathematics Meetings, 2020. \[[poster](\resources\JMM_Poster.pdf)\]
++ **Dynamically Computing Simplicial Depth in Data Sets** \\
+Sydney Leither, Sunaina Butler, Benjamin Mikek, and Michael Burr \\
+COURAGE REU Conference, 27 July 2020, Virtual, USA.  \[[presentation](\resources\depth.pdf)]
+
++ **Decompositions of the Incidence Matrices of Undirected Graphs** \\
+Benjamin Mikek and Jennifer Fowler \\
+Joint Mathematics Meetings (JMM 2020), 17 January 2020, Denver, CO, USA. \[[poster](\resources\JMM_Poster.pdf)]
+
+## Tools
++ **SLOT: SMT-LLVM Optimizing Translation** \[[Github](https://github.com/mikekben/SLOT)] \\
+A tool to speed up SMT solving of bitvector and floating-point constraints by applying compiler optimizations.

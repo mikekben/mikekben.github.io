@@ -25,7 +25,7 @@ To appear in *Proceedings of the Joint European Software Engineering Conference 
 
 
 ## News
++ _**October 2023**_ <br> Presented **Faster SMT Solving via Constraint Transformation** at the 2023 Southeast Regional Programming Languages Seminar (SERPL23) in Agusta, GA, USA.
 + _**May 2023**_ <br>My paper, **Speeding up SMT Solving via Compiler Optimization**, was accepted to ESEC/FSE 2023
 + _**August 2021**_ <br> Started as a first semester Ph.D. student at the [Georgia Institute of Technology](https://www.gatech.edu/) in Atlanta
-+ _**May 2021**_ <br> Graduated from [Grinnell College](https://www.grinnell.edu/) with Bachelor of Arts in Computer Science & Mathematics, with honors
 
