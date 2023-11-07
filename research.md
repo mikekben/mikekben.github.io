@@ -13,7 +13,7 @@ To appear in *Proceedings of the Joint European Software Engineering Conference 
 + **Faster SMT Solving via Constraint Transformation** \\
 Benjamin Mikek, Qirun Zhang \\
 Southeast Regional Programming Languages Seminar (SERPL 2023), 14 October 2023, Agusta, GA, USA. \\
-[[presentation](\resources\SERPL2023.pdf)]
+[[presentation](\resources\SERPL_presentation.pdf)][[extended abstract](\resources\SERPL_abstract.pdf)]
 
 + **Dynamically Computing Simplicial Depth in Data Sets** \\
 Sydney Leither, Sunaina Butler, Benjamin Mikek, and Michael Burr \\
