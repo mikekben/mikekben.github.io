@@ -21,7 +21,7 @@ I'm a second year Ph.D. student in the School of Computer Science at Georgia Tec
 ## [Publications](/research)
 + **[Speeding up SMT Solving via Compiler Optimization](\resources\FSE_SLOT.pdf)** \\
 Benjamin Mikek and Qirun Zhang \\
-To appear in *Proceedings of the Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering* (ESEC/FSE), 2023.
+To appear in *Proceedings of the Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering* (ESEC/FSE), 2023. **ACM SIGSOFT Distinguished Paper Award**
 
 
 ## News

@@ -5,6 +5,9 @@ order: 2
 ---
 
 ## Georgia Tech
++ **Guest Lecture**: Faster SMT Solving Through Constraint Pre--Processing. \\
+CS 6340 Software Analysis and Testing, 30 November 2023. Instructor: Qirun Zhang.
+
 + Spring 2023: TA for **CS4240 Compilers and Interpreters** \\
 Instructor: [Qirun Zhang](https://helloqirun.github.io/)
 

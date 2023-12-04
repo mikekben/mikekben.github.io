@@ -7,7 +7,7 @@ order: 3
 ## Publications
 + **[Speeding up SMT Solving via Compiler Optimization](\resources\FSE_SLOT.pdf)** \\
 Benjamin Mikek and Qirun Zhang \\
-To appear in *Proceedings of the Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering* (ESEC/FSE), 2023.
+To appear in *Proceedings of the Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering* (ESEC/FSE), 2023. **ACM SIGSOFT Distinguished Paper Award**
 
 ## Presentations
 + **Faster SMT Solving via Constraint Transformation** \\
