@@ -5,9 +5,9 @@ order: 3
 ---
 
 ## Publications
-+ **SMT Theory Arbitrage: Approximating Unbounded Constraints using Bounded Theories** \\
++ **[SMT Theory Arbitrage: Approximating Unbounded Constraints using Bounded Theories](\resources\PLDI_STAUB.pdf)** \\
 Benjamin Mikek and Qirun Zhang \\
-Proceedings of the 45th ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI 2024). *Conditionally accepted.*
+Proceedings of the 45th ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI 2024). *To Appear.*
 + **[Speeding up SMT Solving via Compiler Optimization](\resources\FSE_SLOT.pdf)** \\
 Benjamin Mikek and Qirun Zhang \\
 Proceedings of the 31st ACM Symposium on the Foundations of Software Engineering (ESEC/FSE 2023). **ACM SIGSOFT Distinguished Paper Award.**
