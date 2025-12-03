@@ -13,9 +13,15 @@ Benjamin Mikek and Qirun Zhang \\
 Proceedings of the 31st ACM Symposium on the Foundations of Software Engineering (ESEC/FSE 2023). **ACM SIGSOFT Distinguished Paper Award.**
 
 ## Workshop Papers and Posters
++ **Towards Compiler-Guided Static Analysis** \\
+Benjamin Mikek \\
+SPLASH Companion (Doctoral Symposium), October 2025, Singapre, Singapore. \\
+[[short paper](\resources\ds.pdf)]
+
 + **Leveraging LLVM Optimizations to Speed up Constraint Solving** \\
 Benjamin Mikek, Qirun Zhang \\
-LLVM European Developers Meeting (EuroLLVM 2024), April 2024, Vienna Austria.  \\ [[presentation](\resources\EuroLLVMPres.pdf)][[extended abstract](\resources\EuroLLVMAbstract.pdf)]
+LLVM European Developers Meeting (EuroLLVM 2024), April 2024, Vienna Austria.  \\
+[[presentation](\resources\EuroLLVMPres.pdf)][[extended abstract](\resources\EuroLLVMAbstract.pdf)]
 
 + **Faster SMT Solving via Constraint Transformation** \\
 Benjamin Mikek, Qirun Zhang \\
