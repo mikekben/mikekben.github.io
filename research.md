@@ -5,12 +5,21 @@ order: 3
 ---
 
 ## Publications
++ **[Spatial and Temporal Decomposition for Faster Translation Validation](\resources\OOPSLA_DESTIVA.pdf)** \\
+Benjamin Mikek, Chathur Bommineni, Qirun Zhang, and Thomas Reps \\
+OOPSLA 2026.
++ **[Agentic Code Optimization via Compiler-LLM Cooperation](\resources\ACCLAIM.pdf)** \\
+Benjamin Mikek, Danylo Vashchilenko, Bryan Lu, and Panpan Xu \\
+Preprint 2026: arXiv:2604.04238 [cs.LO].
 + **[SMT Theory Arbitrage: Approximating Unbounded Constraints using Bounded Theories](\resources\PLDI_STAUB.pdf)** \\
 Benjamin Mikek and Qirun Zhang \\
-Proceedings of the 45th ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI 2024).
+PLDI 2024.
++ **[A Performance Verification Methodology for Resource Allocation Heuristics](\resources\virelay.pdf)**
+Saksham Goel, Benjamin Mikek, Jehad Hussein, Venkat Arun, Ahmed Saeed, and Aditya Akella. \\
+Preprint 2024: 2024arXiv:2301.04205 [cs.LO].
 + **[Speeding up SMT Solving via Compiler Optimization](\resources\FSE_SLOT.pdf)** \\
 Benjamin Mikek and Qirun Zhang \\
-Proceedings of the 31st ACM Symposium on the Foundations of Software Engineering (ESEC/FSE 2023). **ACM SIGSOFT Distinguished Paper Award.**
+ESEC/FSE 2023. **ACM SIGSOFT Distinguished Paper Award.**
 
 ## Workshop Papers and Posters
 + **Towards Compiler-Guided Static Analysis** \\
