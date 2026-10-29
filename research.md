@@ -22,6 +22,11 @@ Benjamin Mikek and Qirun Zhang \\
 ESEC/FSE 2023. **ACM SIGSOFT Distinguished Paper Award.**
 
 ## Workshop Papers and Posters
+
++ **Extending Code Idiom Recognition to 100k+ Patterns via the OEIS** \\
+Matthew Davis, Benjamin Mikek \\
+LLVM Developers Meeting (LLVM 2026), October 2026, Santa Clara CA, USA. \\ [[poster](\resources\OEIS_Poster.pdf)]
+
 + **Towards Compiler-Guided Static Analysis** \\
 Benjamin Mikek \\
 SPLASH Companion (Doctoral Symposium), October 2025, Singapre, Singapore. \\
