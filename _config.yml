@@ -9,7 +9,6 @@ author:
   name: Benjamin Mikek
   avatar: /resources/me.jpg
   bio: "Ph.D. student in Computer Science at Georgia Tech (PLSE). Programming languages, static analysis, program verification."
-  location: "Atlanta, GA"
   links:
     - label: "bmikek@gatech.edu"
       icon: "fas fa-fw fa-envelope"
@@ -23,3 +22,5 @@ author:
 defaults:
   - scope: {path: ""}
     values: {layout: single, author_profile: true}
+atom_feed:
+  hide: true

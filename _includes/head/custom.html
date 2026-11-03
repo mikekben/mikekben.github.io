@@ -11,4 +11,10 @@
     font-weight: 700;
     border-bottom: 2px solid currentColor;
   }
+  /* Bigger profile photo: fill the sidebar on wide screens, 160px otherwise */
+  @media (min-width: 1024px) { .author__avatar img { max-width: 100%; } }
+  @media (max-width: 1023px) {
+    .author__avatar { display: block; width: auto; height: auto; }
+    .author__avatar img { max-width: 160px; }
+  }
 </style>
