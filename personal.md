@@ -1,7 +1,6 @@
 ---
-layout: default
 title: Personal
-order: 1
+classes: [tab-personal]
 ---
 
 ## About me

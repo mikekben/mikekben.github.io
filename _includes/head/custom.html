@@ -1,0 +1,14 @@
+<style>
+  /* Visually hide the page title on the four main tabs (kept for screen readers) */
+  body[class*="tab-"] .page__title {
+    position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap;
+  }
+  /* Bold the nav link for the current tab */
+  .tab-home     .masthead__menu-item a[href="/"],
+  .tab-research .masthead__menu-item a[href$="/research.html"],
+  .tab-teaching .masthead__menu-item a[href$="/teaching.html"],
+  .tab-personal .masthead__menu-item a[href$="/personal.html"] {
+    font-weight: 700;
+    border-bottom: 2px solid currentColor;
+  }
+</style>

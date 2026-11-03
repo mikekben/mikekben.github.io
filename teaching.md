@@ -1,7 +1,6 @@
 ---
-layout: default
 title: Teaching
-order: 2
+classes: [tab-teaching]
 ---
 
 ## Georgia Tech

@@ -1,7 +1,6 @@
 ---
-layout: default
 title: Research
-order: 3
+classes: [tab-research]
 ---
 
 ## Publications

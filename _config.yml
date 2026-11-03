@@ -1,7 +1,25 @@
-remote_theme: pages-themes/minimal@v0.2.0
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
-
+  - jekyll-remote-theme
+  - jekyll-include-cache
+minimal_mistakes_skin: default
 title: Benjamin Mikek
-description:
-logo: /resources/me.jpg
+name: Benjamin Mikek
+author:
+  name: Benjamin Mikek
+  avatar: /resources/me.jpg
+  bio: "Ph.D. student in Computer Science at Georgia Tech (PLSE). Programming languages, static analysis, program verification."
+  location: "Atlanta, GA"
+  links:
+    - label: "bmikek@gatech.edu"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:bmikek@gatech.edu"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/mikekben"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/benmikek/"
+defaults:
+  - scope: {path: ""}
+    values: {layout: single, author_profile: true}
