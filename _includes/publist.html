@@ -1,0 +1,16 @@
+{%- comment -%}
+Usage: {% include publist.html type="paper" %}  (optional: limit=3)
+{%- endcomment -%}
+{%- assign pubs = site.data.publications | where: "type", include.type -%}
+{%- if include.limit -%}{%- assign pubs = pubs | slice: 0, include.limit -%}{%- endif -%}
+<ul>
+{%- for p in pubs %}
+<li>
+<strong>{% if p.pdf %}<a href="{{ p.pdf | relative_url }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</strong><br>
+{{ p.authors }}<br>
+{{ p.venue }}.{% if p.note %} <strong>{{ p.note }}.</strong>{% endif %}
+{%- if p.links %}<br>
+{% for l in p.links %}[<a href="{{ l.url | relative_url }}">{{ l.label }}</a>]{% endfor %}{% endif %}
+</li>
+{%- endfor %}
+</ul>

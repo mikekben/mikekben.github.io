@@ -1,0 +1,76 @@
+# type: paper | workshop
+# Newest first. Optional fields: note, links (list of {label, url}).
+- title: Spatial and Temporal Decomposition for Faster Translation Validation
+  authors: Benjamin Mikek, Chathur Bommineni, Qirun Zhang, and Thomas Reps
+  venue: OOPSLA 2026
+  type: paper
+  pdf: /resources/OOPSLA_DESTIVA.pdf
+
+- title: Agentic Code Optimization via Compiler-LLM Cooperation
+  authors: Benjamin Mikek, Danylo Vashchilenko, Bryan Lu, and Panpan Xu
+  venue: "Preprint 2026: arXiv:2604.04238 [cs.LO]"
+  type: paper
+  pdf: /resources/ACCLAIM.pdf
+
+- title: "SMT Theory Arbitrage: Approximating Unbounded Constraints using Bounded Theories"
+  authors: Benjamin Mikek and Qirun Zhang
+  venue: PLDI 2024
+  type: paper
+  pdf: /resources/PLDI_STAUB.pdf
+
+- title: A Performance Verification Methodology for Resource Allocation Heuristics
+  authors: Saksham Goel, Benjamin Mikek, Jehad Hussein, Venkat Arun, Ahmed Saeed, and Aditya Akella
+  venue: "Preprint 2024: 2024arXiv:2301.04205 [cs.LO]"
+  type: paper
+  pdf: /resources/virelay.pdf
+
+- title: Speeding up SMT Solving via Compiler Optimization
+  authors: Benjamin Mikek and Qirun Zhang
+  venue: ESEC/FSE 2023
+  note: ACM SIGSOFT Distinguished Paper Award
+  type: paper
+  pdf: /resources/FSE_SLOT.pdf
+
+- title: Extending Code Idiom Recognition to 100k+ Patterns via the OEIS
+  authors: Matthew Davis, Benjamin Mikek
+  venue: LLVM Developers Meeting (LLVM 2026), October 2026, Santa Clara CA, USA
+  type: workshop
+  links:
+    - {label: poster, url: /resources/OEIS_Poster.pdf}
+
+- title: Towards Compiler-Guided Static Analysis
+  authors: Benjamin Mikek
+  venue: SPLASH Companion (Doctoral Symposium), October 2025, Singapore, Singapore
+  type: workshop
+  links:
+    - {label: short paper, url: /resources/ds.pdf}
+
+- title: Leveraging LLVM Optimizations to Speed up Constraint Solving
+  authors: Benjamin Mikek, Qirun Zhang
+  venue: LLVM European Developers Meeting (EuroLLVM 2024), April 2024, Vienna, Austria
+  type: workshop
+  links:
+    - {label: presentation, url: /resources/EuroLLVMPres.pdf}
+    - {label: extended abstract, url: /resources/EuroLLVMAbstract.pdf}
+
+- title: Faster SMT Solving via Constraint Transformation
+  authors: Benjamin Mikek, Qirun Zhang
+  venue: Southeast Regional Programming Languages Seminar (SERPL 2023), 14 October 2023, Augusta, GA, USA
+  type: workshop
+  links:
+    - {label: presentation, url: /resources/SERPL_presentation.pdf}
+    - {label: extended abstract, url: /resources/SERPL_abstract.pdf}
+
+- title: Dynamically Computing Simplicial Depth in Data Sets
+  authors: Sydney Leither, Sunaina Butler, Benjamin Mikek, and Michael Burr
+  venue: COURAGE REU Conference, 27 July 2020, Virtual, USA
+  type: workshop
+  links:
+    - {label: presentation, url: /resources/depth.pdf}
+
+- title: Decompositions of the Incidence Matrices of Undirected Graphs
+  authors: Benjamin Mikek and Jennifer Fowler
+  venue: Joint Mathematics Meetings (JMM 2020), 17 January 2020, Denver, CO, USA
+  type: workshop
+  links:
+    - {label: poster, url: /resources/JMM_Poster.pdf}
