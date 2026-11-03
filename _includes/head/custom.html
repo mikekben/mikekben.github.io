@@ -17,4 +17,8 @@
     .author__avatar { display: block; width: auto; height: auto; }
     .author__avatar img { max-width: 160px; }
   }
+  /* No grey-then-brighten hover effect on the sidebar/photo */
+  .sidebar { opacity: 1; transition: none; }
+  /* Thin border directly against the photo edge (no padding gap) */
+  .author__avatar img { padding: 0; }
 </style>
