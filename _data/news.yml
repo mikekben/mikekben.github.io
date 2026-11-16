@@ -1,0 +1,28 @@
+# Newest first. The home page shows the first 5; the rest appear under "Older news".
+# `text` may use Markdown (e.g. **bold**, [links](url)).
+- date: August 2026
+  text: "I will present a poster on using the OEIS for compiler optimization at the 2026 LLVM Developers' Meeting in Santa Clara."
+- date: August 2026
+  text: "My paper **Spatial and Temporal Decomposition for Faster Translation Validation** will appear at OOPSLA 2026."
+- date: April 2026
+  text: "I will return to AWS to work on verified agentic code generation in summer 2026."
+- date: January 2026
+  text: "I will be a rapid artifact reviewer for PLDI 2026."
+- date: December 2025
+  text: "I have been admitted to candidacy after defending my dissertation proposal."
+- date: August 2025
+  text: "I will present at the SPLASH 2025 Doctoral Symposium in Singapore."
+- date: February 2025
+  text: "I will be joining AWS as an applied scientist intern in summer 2025."
+- date: January 2025
+  text: "I will be a member of the artifact evaluation committee for PLDI 2025."
+- date: March 2024
+  text: "My paper, **SMT Theory Arbitrage: Approximating Unbounded Constraints using Bounded Theories**, will appear at PLDI 2024."
+- date: February 2024
+  text: "I will present my work on leveraging LLVM optimizations for constraint solving at EuroLLVM 2024 in Vienna on 10 April."
+- date: January 2024
+  text: "I will be a member of the artifact evaluation committee for PLDI 2024."
+- date: January 2024
+  text: "I will be a member of the artifact evaluation committee for CAV 2024."
+- date: December 2023
+  text: "My paper, **Speeding up SMT Solving via Compiler Optimization**, won an ACM SIGSOFT Distinguished Paper Award at FSE 2023."

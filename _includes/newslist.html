@@ -1,0 +1,22 @@
+{%- comment -%}
+Usage: {% include newslist.html limit=5 %}
+Shows the first `limit` items; any remaining items go in a collapsed "Older news" section.
+{%- endcomment -%}
+{%- assign limit = include.limit | default: 5 -%}
+{%- assign recent = site.data.news | slice: 0, limit -%}
+{%- assign older = site.data.news | slice: limit, 1000 -%}
+<ul>
+{%- for n in recent %}
+<li><em><strong>{{ n.date }}</strong></em> {{ n.text | markdownify | remove: '<p>' | remove: '</p>' | strip }}</li>
+{%- endfor %}
+</ul>
+{%- if older.size > 0 %}
+<details class="news-older">
+<summary>Older news</summary>
+<ul>
+{%- for n in older %}
+<li><em><strong>{{ n.date }}</strong></em> {{ n.text | markdownify | remove: '<p>' | remove: '</p>' | strip }}</li>
+{%- endfor %}
+</ul>
+</details>
+{%- endif %}
