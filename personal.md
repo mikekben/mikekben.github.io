@@ -1,6 +1,6 @@
 ---
 title: Personal
-classes: [tab-personal]
+classes: [tab-personal, wide]
 ---
 
 ## About me

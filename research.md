@@ -1,6 +1,6 @@
 ---
 title: Research
-classes: [tab-research]
+classes: [tab-research, wide]
 ---
 
 ## Publications

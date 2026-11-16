@@ -1,6 +1,6 @@
 ---
 title: Teaching
-classes: [tab-teaching]
+classes: [tab-teaching, wide]
 ---
 
 ## Georgia Tech
