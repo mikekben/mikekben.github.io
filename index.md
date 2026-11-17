@@ -12,7 +12,9 @@ Benjamin Mikek is a Ph.D. candidate in the School of Computer Science at Georgia
 </div>
 
 ## Publications
-{% include publist.html type="paper" %}
+{% include publist.html types="paper,preprint" %}
 
 ## News
 {% include newslist.html limit=5 %}
+
+{% include equalnote.html %}

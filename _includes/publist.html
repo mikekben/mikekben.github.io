@@ -1,14 +1,24 @@
 {%- comment -%}
 Usage: {% include publist.html type="paper" %}  (optional: limit=3)
+   or: {% include publist.html types="paper,preprint" %}  (several types: all of the first, then the next, ...)
 {%- endcomment -%}
+{%- if include.types -%}
+{%- assign wanted = include.types | split: "," -%}
+{%- assign pubs = "" | split: "" -%}
+{%- for t in wanted -%}
+{%- assign group = site.data.publications | where: "type", t -%}
+{%- assign pubs = pubs | concat: group -%}
+{%- endfor -%}
+{%- else -%}
 {%- assign pubs = site.data.publications | where: "type", include.type -%}
+{%- endif -%}
 {%- if include.limit -%}{%- assign pubs = pubs | slice: 0, include.limit -%}{%- endif -%}
 <ul>
 {%- for p in pubs %}
 <li>
-<strong>{% if p.pdf %}<a href="{{ p.pdf | relative_url }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</strong><br>
-{{ p.authors }}<br>
-{{ p.venue }}.{% if p.note %} <strong>{{ p.note }}.</strong>{% endif %}
+<strong>{% if p.pdf %}<a href="{{ p.pdf | relative_url }}">{{ p.title }}</a>{% elsif p.arxiv %}<a href="https://arxiv.org/abs/{{ p.arxiv }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</strong><br>
+{{ p.authors }}.<br>
+{% if p.venue %}{{ p.venue }}{% if p.arxiv %}: {% endif %}{% endif %}{% if p.arxiv %}<a href="https://arxiv.org/abs/{{ p.arxiv }}">arXiv:{{ p.arxiv }}</a>{% if p.arxiv_class %} [{{ p.arxiv_class }}]{% endif %}{% endif %}.{% if p.note %} <strong>{{ p.note }}.</strong>{% endif %}
 {%- if p.links %}<br>
 {% for l in p.links %}[<a href="{{ l.url | relative_url }}">{{ l.label }}</a>]{% endfor %}{% endif %}
 </li>

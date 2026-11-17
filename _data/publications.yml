@@ -1,4 +1,5 @@
-# type: paper | workshop
+# type: paper | preprint | workshop
+# Preprints: set `arxiv` (id only) and optionally `arxiv_class`; the template links it to arxiv.org.
 # Newest first. Optional fields: note, links (list of {label, url}).
 - title: Spatial and Temporal Decomposition for Faster Translation Validation
   authors: Benjamin Mikek, Chathur Bommineni, Qirun Zhang, and Thomas Reps
@@ -6,10 +7,17 @@
   type: paper
   pdf: /resources/OOPSLA_DESTIVA.pdf
 
+- title: "SWE-Proof: Can Language Models Resolve Real-World Issues with Machine-Checked Proofs?"
+  authors: George Ma*, Benjamin Mikek*, Haoyu Li, Ferhat Erata, Yuhao Zhang, Zeren Shui, Behrooz Omidvar Tehrani, Jun Huan, Murali Krishna Ramanathan, Somayeh Sojoudi, Hao Zhou, and Anoop Deoras
+  arxiv: "2609.21190"
+  arxiv_class: cs.LG
+  type: preprint
+
 - title: Agentic Code Optimization via Compiler-LLM Cooperation
   authors: Benjamin Mikek, Danylo Vashchilenko, Bryan Lu, and Panpan Xu
-  venue: "Preprint 2026: arXiv:2604.04238 [cs.LO]"
-  type: paper
+  arxiv: "2604.04238"
+  arxiv_class: cs.LO
+  type: preprint
   pdf: /resources/ACCLAIM.pdf
 
 - title: "SMT Theory Arbitrage: Approximating Unbounded Constraints using Bounded Theories"
@@ -20,8 +28,9 @@
 
 - title: A Performance Verification Methodology for Resource Allocation Heuristics
   authors: Saksham Goel, Benjamin Mikek, Jehad Hussein, Venkat Arun, Ahmed Saeed, and Aditya Akella
-  venue: "Preprint 2024: 2024arXiv:2301.04205 [cs.LO]"
-  type: paper
+  arxiv: "2301.04205"
+  arxiv_class: cs.LO
+  type: preprint
   pdf: /resources/virelay.pdf
 
 - title: Speeding up SMT Solving via Compiler Optimization

@@ -1,0 +1,7 @@
+{%- comment -%}
+Footnote shown at the bottom of a page only if some author list in _data/publications.yml contains "*".
+{%- endcomment -%}
+{%- assign starred = site.data.publications | where_exp: "p", "p.authors contains '*'" -%}
+{%- if starred.size > 0 -%}
+<p class="footnote">* Equal contribution</p>
+{%- endif -%}
